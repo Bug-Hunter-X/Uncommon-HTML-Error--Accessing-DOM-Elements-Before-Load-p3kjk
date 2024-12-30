@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+
+  <script>
+    // Wait for the DOM to be fully loaded
+    document.addEventListener('DOMContentLoaded', function() {
+      const myDiv = document.getElementById("myDiv");
+      myDiv.innerHTML = "<p>This is added content.</p>";
+    });
+  </script>
+</body>
+</html>
